@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true, //是否在浏览器中启动
-      "launchUrl": "swagger", //在浏览器中启动的相对URL
+      "launchUrl": "", //在浏览器中启动的相对URL
       "environmentVariables": { //将环境变量设置为键/值对
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "NetCoreWebApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
