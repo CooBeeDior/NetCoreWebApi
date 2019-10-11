@@ -1,0 +1,30 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": { //选择以IIS Express启动 
+    "windowsAuthentication": false, //是否启用windows身份验证
+    "anonymousAuthentication": true, //是否启用匿名身份验证
+    "iisExpress": {
+      "applicationUrl": "http://localhost:60953", //IIS Express随机端口
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true, //是否在浏览器中启动
+      "launchUrl": "swagger", //在浏览器中启动的相对URL
+      "environmentVariables": { //将环境变量设置为键/值对
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "NetCoreWebApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

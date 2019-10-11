@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:NetCoreWebApi.Controllers.UserController">
+            <summary>
+            用户模块
+            </summary>
+        </member>
+        <member name="F:NetCoreWebApi.Controllers.UserController._myDbContext">
+            <summary>
+            构造函数注入上下文
+            </summary>
+        </member>
+        <member name="M:NetCoreWebApi.Controllers.UserController.CreateUser(NetCoreWebApi.Model.Models.TbUser)">
+            <summary>
+            创建用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreWebApi.Controllers.UserController.GetUser">
+            <summary>
+            查询用户
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

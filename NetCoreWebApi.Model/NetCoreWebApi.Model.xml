@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreWebApi.Model</name>
+    </assembly>
+    <members>
+        <member name="T:NetCoreWebApi.Model.Models.TbUser">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.Models.TbUser.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.Models.TbUser.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.Models.TbUser.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.Models.TbUser.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+    </members>
+</doc>

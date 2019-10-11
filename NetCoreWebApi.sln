@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApi", "NetCoreWebApi\NetCoreWebApi.csproj", "{347DB68F-1842-4731-8C9A-A1681506690F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApi.Model", "NetCoreWebApi.Model\NetCoreWebApi.Model.csproj", "{7EB0D1FB-8B01-41EB-8CAA-4FB886A3790E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{347DB68F-1842-4731-8C9A-A1681506690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347DB68F-1842-4731-8C9A-A1681506690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347DB68F-1842-4731-8C9A-A1681506690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347DB68F-1842-4731-8C9A-A1681506690F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB0D1FB-8B01-41EB-8CAA-4FB886A3790E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB0D1FB-8B01-41EB-8CAA-4FB886A3790E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB0D1FB-8B01-41EB-8CAA-4FB886A3790E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB0D1FB-8B01-41EB-8CAA-4FB886A3790E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF10BD2B-5C59-4C8F-B4FE-D8642A416D6C}
+	EndGlobalSection
+EndGlobal
